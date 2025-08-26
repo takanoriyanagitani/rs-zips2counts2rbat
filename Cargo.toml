@@ -1,0 +1,18 @@
+[package]
+name = "rs-zips2counts2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.arrow]
+version = "56"
+default-features = false
+features = [
+]
+
+[dependencies.zip]
+version = "4"
+default-features = false
+features = [
+	"deflate",
+	"deflate64",
+]
