@@ -1,0 +1,7 @@
+[package]
+name = "zips2counts2rbat"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies.rs-zips2counts2rbat]
+path = "../.."
